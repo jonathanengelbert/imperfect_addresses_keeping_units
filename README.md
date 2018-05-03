@@ -1,5 +1,5 @@
 
-# Imperfect Addresses (Keeping Units)
+# Imperfect Addresses (keeping Units)
 
 This script standardizes addresses provided in an excel workbook.
 
