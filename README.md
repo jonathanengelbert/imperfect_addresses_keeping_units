@@ -1,5 +1,5 @@
 
-# Imperfect Addresses
+# Imperfect Addresses (Keeping Units)
 
 This script standardizes addresses provided in an excel workbook.
 
@@ -7,10 +7,11 @@ It was first developed to attend the needs of the Urban Planning Department of t
 
 Although this script is very case-specific, it is flexible enough in its structure to accommodate differente standards for the transformation of other kinds of data.
 
+This script is a revamp of the first Imperfect Addresses, where unit numbers should be removed from the output, usually for geocoding purposes. This is a modification of that script, which keeps and standardizes the unit number in all addresses.
+
 ## Last Modified
 
-The final version of this script was released 01/26/2018.
-Subsequent updates may follow as needed.
+This script is currently under redevelopment, as of 05/03/2018.
 
 ## Functionality
 
@@ -20,8 +21,6 @@ Subsequent updates may follow as needed.
 
      https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v/data
 
- * Everything to the right of an address type is wiped out (as in
-     "123 1st street, Apt 345" --> "123 1st st"
  * Apostrophes are removed and leave no whitespace in between characters
  * Ranges (as in "517-520 1st Street") are eliminated. Only the first
  number in the range must is kept
